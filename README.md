@@ -8,8 +8,9 @@ The OTP Bot doest not require expensive server to operate (Discord is fine)
 It works according to country's phone number (each bot work for specific country)
 
 To learn how to use or build this OTP Bot inluding all the configuration setups.
+And to receive latest updated codes and configurations. Join my new Discord Server:
 
-Join my new Discord Server: https://discord.gg/yRcgJa6U (Old Channel was Banned)
+https://discord.gg/yRcgJa6U (Old Channel was Banned)
 
 For request/questions DM me on Discord: Coder089#8305
 
