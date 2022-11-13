@@ -1,5 +1,7 @@
 # Working-OTP-Bot-2023-Version
-# This OTP Bot is capable of fetching you an OTP code sent to any phone number for 2FA/MFA verification.
+# The new Upgraded source code and ready-to-use-bot are available for purchase: visit https://www.poof.io/@coder089
+
+This OTP Bot is capable of fetching you an OTP code sent to any phone number for 2FA/MFA verification.
 
 It works with any Bank, Card, Crypto Wallet, PayPal, Gmail and much more.
 
