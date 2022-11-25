@@ -17,7 +17,7 @@
 # Contact me on my new Chennel and Server
 
     Discord Server: https://discord.gg/57kGAfJz
-    Telegram Channek: https://t.me/+fzkvq8FdnQY2ZmNh
+    Telegram Channel: https://t.me/+fzkvq8FdnQY2ZmNh
     DM Discord: Coder089#8305
     DM Telegram: @Coder089
 
