@@ -14,7 +14,7 @@
     And For more advanced Discord and Telegram OTP Bots.
 
 
-# Contact me on my new Chennel and Server
+# FOr Customization or Private OTP Bots Contact me on my new Chennel and Server
 
     Discord Server: https://discord.gg/57kGAfJz
     Telegram Channel: https://t.me/+fzkvq8FdnQY2ZmNh
