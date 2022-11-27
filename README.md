@@ -16,7 +16,7 @@
 
 # FOr Customization or Private OTP Bots Contact me on my new Chennel and Server
 
-    Discord Server: https://discord.gg/57kGAfJz
+    Discord Server: https://discord.gg/cknrH3jd
     Telegram Channel: https://t.me/+fzkvq8FdnQY2ZmNh
     DM Discord: Coder089#8305
     DM Telegram: @Coder089
