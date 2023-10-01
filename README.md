@@ -20,7 +20,9 @@
     DM Telegram: @Coder0089
 Discord Server: https://discord.gg/CVgscsvRRx
 
-Telegram Channel https://t.me/+I2QcslRt8HM2YTEx
+NEW Telegram Channel https://t.me/+I2QcslRt8HM2YTEx
+
+Old Telegram Channel https://t.me/+fzkvq8FdnQY2ZmNh
 
     (Old Channels are Banned)
     https://discord.gg/ghHtyDevI
